@@ -11,10 +11,7 @@ Pod::Spec.new do |s|
   s.requires_arc        = true
   s.static_framework    = true
 
-  s.source              = {
-    :http => 'https://drive.usercontent.google.com/download?id=1RYAjwMedEYIUVSsVrGh-aNG4S3ifvrKR&export=download&authuser=0&confirm=t&uuid=ebf72abb-29f2-402b-b157-00623f7c2f2d&at=ALoNOglizRXvvA-_WhyjSG_pyXHn:1747728131050'
-  }
-  # s.source = { :path => '.' }
+  s.source = { :path => '.' }
   s.source_files        = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
 
